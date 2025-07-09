@@ -1,16 +1,13 @@
 // src/Player.js
-
 import React from "react";
 import { Card } from "react-bootstrap";
 import PropTypes from "prop-types";
-
 const cardStyle = {
   width: "18rem",
   margin: "20px",
   border: "2px solid #333",
   boxShadow: "5px 5px 15px rgba(0,0,0,0.2)"
 };
-
 const Player = ({ name, team, nationality, jerseyNumber, age, image }) => {
   return (
     <Card style={cardStyle}>
